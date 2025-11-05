@@ -18,7 +18,7 @@ setupSwagger(app);
 app.use(express.static(path.join(__dirname, 'frontend')));
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://api-book-d022.onrender.com',
 	methods: ['GET', 'POST', 'PUT', 'DELETE'],
 	allowedHeaders: ['Content-Type', 'x-api-key'],
 }));
