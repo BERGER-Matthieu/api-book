@@ -1,4 +1,4 @@
-const API_URL = 'https://api-book-d022.onrender.com';
+const API_URL = 'https://api-book-d022.onrender.com/api';
 
 const token = localStorage.getItem('token');
 if (!token) {
